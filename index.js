@@ -22,4 +22,8 @@ window.addEventListener('load', function(){
         pullDownParents.setAttribute("style", "display:block;");
       }
   })
+
+    // コースの値を取得し表示させる
+    pullDownChild.forEach(function(list) {
+    })
 })
