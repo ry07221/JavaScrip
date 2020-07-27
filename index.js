@@ -25,5 +25,8 @@ window.addEventListener('load', function(){
 
     // コースの値を取得し表示させる
     pullDownChild.forEach(function(list) {
+      list.addEventListener("click", function() {
+        console.log(list)
+      })
     })
 })
